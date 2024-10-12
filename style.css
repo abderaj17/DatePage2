@@ -1,0 +1,74 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5a623, #f76b1c);
+    margin: 0;
+    padding: 0;
+}
+
+.date-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.date-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.date-card h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.yes-button, .no-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.yes-button {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.no-button {
+    background-color: #e74c3c;
+    color: #ffffff;
+    position: relative;
+}
+
+.message-container {
+    display: none;
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.message-container h1 {
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.message-container p {
+    color: #333;
+}
